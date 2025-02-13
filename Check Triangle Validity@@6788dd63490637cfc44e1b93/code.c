@@ -5,7 +5,7 @@ int main(){
     scanf("%d",b);
     scanf("%d",c);
     if((a*a)+(b*b)==(c*c)){
-        printf("Valid");
+        printf("Valid");}
         else{printf("Invalid")};
-    }
+    
 }
