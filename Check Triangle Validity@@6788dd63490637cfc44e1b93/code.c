@@ -6,6 +6,6 @@ int main(){
     scanf("%d",c);
     if((a*a)+(b*b)==(c*c)){
         printf("Valid");
-        else{prinntf("Invalid")};
+        else{printf("Invalid")};
     }
 }
