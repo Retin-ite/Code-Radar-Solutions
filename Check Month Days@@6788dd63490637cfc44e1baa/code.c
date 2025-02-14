@@ -6,7 +6,7 @@ int main(){
     printf("31");}
     else if(a==4 || a==6 || a==9 || a==11){printf("30");}
     else if(a==2){printf("28");}
-    else{printf("Invalid");}
+    else{printf("Invalid month");}
     
     
 }
