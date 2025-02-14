@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
-    int a,b,c;
-    scanf("%d %d %d",&a,&b,&c);
-    if((a/b)==c){
+    int a,b;
+    scanf("%d %d %d",&a,&b);
+    if(b!=0 && a/b==0){
         printf("Yes");
     }else{printf("No");}
 }
