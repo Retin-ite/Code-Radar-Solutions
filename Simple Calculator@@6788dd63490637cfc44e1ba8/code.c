@@ -5,11 +5,11 @@ int main(){
     scanf("%lf %lf",&a,&b);
     scanf("%c",&c);
     if (c==+){
-        printf(a+b);
+        printf((a+b));
         
     }else if(c== -){
-        printf(a-b);
-    } else if(c==*){printf(a*b);}
-    else if(c== /){printf(a/b);}
+        printf((a-b));
+    } else if(c==*){printf((a*b));}
+    else if(c== /){printf((a/b));}
     else{printf("Error");}
 }
