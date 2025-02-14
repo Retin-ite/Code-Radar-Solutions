@@ -8,5 +8,5 @@ int main(){
     printf("Go");
   }else if(a=='Y'){
     printf("Slow Down");
-  }else{printf("Invalid");}
+  }else{printf("Invalid input");}
 }
