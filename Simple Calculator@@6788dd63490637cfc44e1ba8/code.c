@@ -4,12 +4,12 @@ int main(){
     char c;
     scanf("%lf %lf",&a,&b);
     scanf("%c",&c);
-    if (c==+){
+    if (c=='+'){
         printf((a+b));
         
-    }else if(c== -){
+    }else if(c== '-'){
         printf((a-b));
-    } else if(c==*){printf((a*b));}
-    else if(c== /){printf((a/b));}
+    } else if(c=='*'){printf((a*b));}
+    else if(c== '/'){printf((a/b));}
     else{printf("Error");}
 }
