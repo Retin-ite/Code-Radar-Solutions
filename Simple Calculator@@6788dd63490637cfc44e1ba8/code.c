@@ -1,8 +1,9 @@
 #include <stdio.h>
 int main(){
-    int a,b;
+    double a,b;
     char c;
-    scanf("%d %d %c",&a,&b,&c);
+    scanf("%lf %lf",&a,&b);
+    scanf("%c",&c);
     if (c==+){
         printf(a+b);
         
