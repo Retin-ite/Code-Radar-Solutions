@@ -6,11 +6,11 @@ int main(){
     getchar();
     scanf("%c",&c);
     if (c=='+'){
-        printf("%lf",a+b);
+        printf("%.2lf",a+b);
         
     }else if(c== '-'){
-        printf("%lf",a-b);
-    } else if(c=='*'){printf("%lf",a*b);}
-    else if(c== '/'){if (b!=0)printf("%lf",a/b);}
+        printf("%.2lf",a-b);
+    } else if(c=='*'){printf("%.2lf",a*b);}
+    else if(c== '/'){if (b!=0)printf("%.2lf",a/b);}
     else{printf("Error");}
 }
