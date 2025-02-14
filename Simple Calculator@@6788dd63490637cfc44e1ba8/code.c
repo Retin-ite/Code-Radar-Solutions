@@ -20,11 +20,11 @@ int main() {
         if (b != 0)
             result = a / b;
         else {
-            printf("Error");
+            printf("error");
             return 0;
         }
     } else {
-        printf("Error");
+        printf("error");
         return 0;
     }
 
