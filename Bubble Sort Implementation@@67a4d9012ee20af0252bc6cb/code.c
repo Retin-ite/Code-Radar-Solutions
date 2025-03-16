@@ -18,6 +18,6 @@ int main(){
         scanf("%d",&arr[i]);
     }
     bubble_sort(arr,n);
-    printArray(arr,n);
+    printarray(arr,n);
 return 0;
 }
