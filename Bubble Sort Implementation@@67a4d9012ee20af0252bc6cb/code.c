@@ -10,6 +10,12 @@ void bubble_sort(int arr[],int n){
         }
     }
 }
+void print_array(int arr[], int n) {
+    for (int i = 0; i < n; i++) {
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
+}
 int main(){
     int n;
     scanf("%d",&n);
