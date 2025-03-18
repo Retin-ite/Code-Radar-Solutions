@@ -1,11 +1,17 @@
 #include <stdio.h>
-int main(){
-   int i,j,n;
-    scanf("%d",&n);
-    for(i = 1 ; i<=n ; i++){
-        for(j=1 ; j<=i ; j++){
-            printf("%d",(i + j) % 2);
 
-        }printf("\n");
+int main() {
+    int i, j, n;
+
+    // Taking input for the number of rows
+    scanf("%d", &n);
+
+    for (i = 1; i <= n; i++) {         // Loop for rows
+        for (j = 1; j <= i; j++) {      // Loop for columns
+            printf("%d ", (i + j) % 2); // Added space after the digit
+        }
+        printf("\n");
     }
+
+    return 0;
 }
