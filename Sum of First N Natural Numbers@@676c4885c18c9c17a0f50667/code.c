@@ -4,5 +4,5 @@ int main(){
     scanf("%d",&n);
     for(i=1 ; i<=n ; i++){
         sum +=i;
-    }printf("sum of first %d natural numbers = %d\n",n,sum);
+    }printf("%d = %d\n",n,sum);
 }
